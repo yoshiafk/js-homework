@@ -1,0 +1,16 @@
+body {
+  background: coral;
+}
+.tittle {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 75px;
+  margin: 20%;
+  color: whitesmoke;
+}
+
+.typing {
+  color: crimson;
+  padding-left: 10px;
+}
