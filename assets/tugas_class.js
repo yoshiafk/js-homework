@@ -18,6 +18,9 @@ class Bus {
             alert(`Empty seat occupied by ${passengerName}`);
             return this.passenger;
             // Check if the passenger already in the bus
+          } else if (passenger.length === 5) {
+            alert("Choose another bus");
+            return this.passenger;
           } else if (this.passenger[n] == passengerName) {
             alert(`${passengerName} already in the bus`);
             return this.passenger;
